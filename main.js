@@ -4,4 +4,4 @@ var compassion_quote = “For there is nothing heavier than compassion.
 var compassion_author = "Milan Kundera"
 var compassion_work = "The Unbearable Lightness of Being"
 
-document.getElementById("quote").innerHTML = compassion_quote;
+document.getElementById("quote").text = compassion_quote;
