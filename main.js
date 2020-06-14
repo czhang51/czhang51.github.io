@@ -24,8 +24,8 @@ var i = 0;
 
 function showNext() {
 	i += 1;
-	i = i % len(quotes)
-	result = quotes[i]
+	i = i % len(quotes);
+	result = quotes[i];
 	document.getElementById("quote").text = result.quote;
 	document.getElementById("author").text = result.author;
 	document.getElementById("work").text = result.work;
